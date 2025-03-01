@@ -15,5 +15,18 @@ public class Student {
     private String name;
     private String address;
 
+    public Student() {
+    }
 
+    public int getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getAddress() {
+        return address;
+    }
 }
